@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register — SkyPulse Luxury Travel</title>
+  <link rel="stylesheet" href="register.css" />
+  <script src="register.js" defer></script>
+</head>
+<body>
+
+  <nav>
+    <a href="homepage.html" class="nav-logo">SkyPulse</a>
+    <a href="homepage.html" class="nav-back">← Back to home</a>
+  </nav>
+
+  <div class="form-header">
+    <p class="brand-label">Luxury Travel · Marrakech</p>
+    <h1 class="form-title">Begin Your<br><em>Journey</em></h1>
+    <p class="form-subtitle">Register for a curated Moroccan experience</p>
+  </div>
+
+  <div class="form-card">
+    <div id="form-body">
+      <p class="section-label">Personal details</p>
+      <div class="row">
+        <div class="field-group">
+          <label for="fname">First name</label>
+          <input type="text" id="fname" placeholder="Youssef" />
+        </div>
+        <div class="field-group">
+          <label for="lname">Last name</label>
+          <input type="text" id="lname" placeholder="El Fassi" />
+        </div>
+      </div>
+
+      <div class="field-group">
+        <label for="email">Email address</label>
+        <input type="email" id="email" placeholder="you@example.com" />
+      </div>
+
+      <div class="row">
+        <div class="field-group">
+          <label for="phone">Phone number</label>
+          <input type="tel" id="phone" placeholder="+212 6XX XXX XXX" />
+        </div>
+        <div class="field-group">
+          <label for="nationality">Nationality</label>
+          <input type="text" id="nationality" placeholder="e.g. Moroccan, French…" />
+        </div>
+      </div>
+
+      <hr class="divider" />
+
+      <p class="section-label">Choose your destination</p>
+      <div class="dest-grid">
+        <div>
+          <input class="dest-radio" type="radio" name="destination" id="d-sahara" value="Sahara Desert" />
+          <label class="dest-label" for="d-sahara">
+            <div class="dest-image"><img src="image1/images/sahara.avif" alt="Sahara"></div>
+            <span class="dest-name">Sahara Desert</span>
+            <span class="dest-loc">Southern Morocco</span>
+            <span class="dest-price">From 2,800 DH</span>
+          </label>
+        </div>
+        <div>
+          <input class="dest-radio" type="radio" name="destination" id="d-atlas" value="Atlas Mountains" />
+          <label class="dest-label" for="d-atlas">
+            <div class="dest-image"><img src="image1/images/atlas.avif" alt="Atlas"></div>
+            <span class="dest-name">Atlas Mountains</span>
+            <span class="dest-loc">High Atlas</span>
+            <span class="dest-price">From 2,500 DH</span>
+          </label>
+        </div>
+        <div>
+          <input class="dest-radio" type="radio" name="destination" id="d-essaouira" value="Essaouira" />
+          <label class="dest-label" for="d-essaouira">
+            <div class="dest-image"><img src="image1/images/essaouira.avif" alt="Essaouira"></div>
+            <span class="dest-name">Essaouira</span>
+            <span class="dest-loc">Atlantic Coast</span>
+            <span class="dest-price">From 3,000 DH</span>
+          </label>
+        </div>
+      </div>
+
+      <hr class="divider" />
+
+      <p class="section-label">Trip details</p>
+      <div class="row">
+        <div class="field-group">
+          <label for="dep-date">Departure date</label>
+          <input type="date" id="dep-date" />
+        </div>
+        <div class="field-group">
+          <label for="duration">Duration</label>
+          <select id="duration">
+            <option value="">Select…</option>
+            <option>3 days</option>
+            <option>4 days</option>
+            <option>5 days</option>
+            <option>6 days</option>
+            <option>1 week</option>
+            <option>Custom (specify below)</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="field-group">
+        <label>Number of travelers</label>
+        <div class="travelers-row">
+          <button class="qty-btn" id="qty-down" type="button">−</button>
+          <span class="qty-val" id="qty-display">1</span>
+          <button class="qty-btn" id="qty-up" type="button">+</button>
+        </div>
+      </div>
+
+      <div class="field-group">
+        <label for="lodging">Preferred lodging</label>
+        <select id="lodging">
+          <option value="">Select…</option>
+          <option>Luxury riad</option>
+          <option>Desert camp (glamping)</option>
+          <option>Mountain lodge</option>
+          <option>Boutique hotel</option>
+          <option>No preference</option>
+        </select>
+      </div>
+
+      <div class="field-group">
+        <label for="notes">Special requests or questions</label>
+        <textarea id="notes" placeholder="Dietary needs, accessibility, custom itinerary ideas…"></textarea>
+      </div>
+
+      <button class="submit-btn" id="submit-btn" type="button">Reserve My Journey →</button>
+    </div>
+
+    <div class="success-msg" id="success-msg">
+      <span class="success-symbol">✦</span>
+      <h2 class="success-title">Request <em>received</em></h2>
+      <p class="success-sub">A SkyPulse consultant will reach out within 24 hours to craft your personal itinerary.</p>
+      <a class="success-email" href="mailto:SkyPulse123@skypulse.ma">SkyPulse123@skypulse.ma</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 SkyPulse &nbsp;·&nbsp; Gueliz, Marrakech &nbsp;·&nbsp; <a href="tel:+21200000000">+212 000 000 000</a></p>
+  </footer>
+
+</body>
+</html>
