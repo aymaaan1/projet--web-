@@ -9,8 +9,8 @@ html {
 }
 
 body {
-    background: #d9cdb0;
-    color: #1f2b34;
+    background: #d9d4bc;
+    color: #1a2820;
     font-family: 'Cormorant Garamond', Georgia, serif;
     overflow-x: hidden
 }
@@ -25,7 +25,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 1.4rem 4vw;
-    background: linear-gradient(180deg, rgba(217, 205, 176, .97), rgba(217, 205, 176, 0));
+    background: linear-gradient(180deg, rgba(217, 212, 188, .97), rgba(217, 212, 188, 0));
     backdrop-filter: blur(8px)
 }
 
@@ -33,7 +33,7 @@ nav {
     font-family: 'Playfair Display', Georgia, serif;
     font-size: 1.5rem;
     font-weight: 700;
-    color: #1f4559;
+    color: #1e3a28;
     text-decoration: none;
     letter-spacing: 2px
 }
@@ -47,7 +47,7 @@ nav {
 .nav-back {
     font-family: 'Outfit', sans-serif;
     font-size: .8rem;
-    color: #4a5863;
+    color: #4e5a4c;
     text-decoration: none;
     letter-spacing: 1.5px;
     text-transform: uppercase;
@@ -55,7 +55,7 @@ nav {
 }
 
 .nav-back:hover {
-    color: #1f4559
+    color: #1e3a28
 }
 
 .nav-links {
@@ -67,7 +67,7 @@ nav {
 .nav-links a {
     font-family: 'Outfit', sans-serif;
     font-size: .8rem;
-    color: #4a5863;
+    color: #4e5a4c;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -75,7 +75,7 @@ nav {
 }
 
 .nav-links a:hover {
-    color: #1f4559
+    color: #1e3a28
 }
 
 .hero {
@@ -83,7 +83,7 @@ nav {
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    background: linear-gradient(178deg, #1f4559, #3d6d82 25%, #967a3d 55%, #d9cdb0)
+    background: linear-gradient(178deg, #1e3a28, #4a7248 25%, #8a6d3d 55%, #d9d4bc)
 }
 
 .hero-content {
@@ -110,13 +110,13 @@ nav {
     font-size: .7rem;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #f2ead5;
+    color: #ede6d0;
     margin-bottom: 1.2rem;
     opacity: .7
 }
 
 .hero-crumb a {
-    color: #f2ead5;
+    color: #ede6d0;
     text-decoration: none
 }
 
@@ -126,7 +126,7 @@ nav {
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: #f2ead5;
+    color: #ede6d0;
     margin-bottom: 1rem;
     opacity: .8
 }
@@ -136,20 +136,20 @@ nav {
     font-size: clamp(3rem, 9vw, 7rem);
     font-weight: 700;
     line-height: 1;
-    color: #f2ead5;
+    color: #ede6d0;
     margin-bottom: 1.2rem
 }
 
 .hero h1 em {
     font-style: italic;
-    color: #d9cdb0
+    color: #d9d4bc
 }
 
 .hero-sub {
     font-family: 'Cormorant Garamond', Georgia, serif;
     font-size: clamp(1.1rem, 2vw, 1.35rem);
     font-weight: 300;
-    color: #f2ead5;
+    color: #ede6d0;
     line-height: 1.7;
     max-width: 540px;
     margin: 0 auto;
@@ -167,7 +167,7 @@ nav {
 .dv i {
     width: 7px;
     height: 7px;
-    background: #3d6d82;
+    background: #4a7248;
     transform: rotate(45deg);
     display: inline-block
 }
@@ -175,7 +175,7 @@ nav {
 .dv span {
     width: 60px;
     height: 1px;
-    background: linear-gradient(90deg, transparent, #3d6d82, transparent);
+    background: linear-gradient(90deg, transparent, #4a7248, transparent);
     display: inline-block
 }
 
@@ -184,7 +184,7 @@ nav {
 }
 
 .sec-a {
-    background: #e4d8bc
+    background: #e4dec5
 }
 
 .sh {
@@ -198,7 +198,7 @@ nav {
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: #3d6d82;
+    color: #4a7248;
     margin-bottom: .8rem
 }
 
@@ -206,7 +206,7 @@ nav {
     font-family: 'Playfair Display', Georgia, serif;
     font-size: clamp(1.8rem, 4.5vw, 3rem);
     font-weight: 700;
-    color: #1f2b34;
+    color: #1a2820;
     line-height: 1.15
 }
 
@@ -223,7 +223,7 @@ nav {
     font-family: 'Playfair Display', Georgia, serif;
     font-size: clamp(1.8rem, 4vw, 2.8rem);
     font-weight: 700;
-    color: #1f2b34;
+    color: #1a2820;
     line-height: 1.15;
     margin-bottom: 1.2rem
 }
@@ -232,7 +232,7 @@ nav {
     font-family: 'Cormorant Garamond', Georgia, serif;
     font-size: 1.12rem;
     line-height: 1.85;
-    color: #4a5863;
+    color: #4e5a4c;
     margin-bottom: 1rem
 }
 
@@ -244,7 +244,7 @@ nav {
 
 .stat {
     padding: 1.5rem;
-    border: 1px solid rgba(31, 43, 52, .1);
+    border: 1px solid rgba(26, 40, 32, .1);
     background: rgba(255, 255, 255, .35)
 }
 
@@ -253,7 +253,7 @@ nav {
     font-family: 'Playfair Display', Georgia, serif;
     font-size: 2rem;
     font-weight: 700;
-    color: #3d6d82
+    color: #4a7248
 }
 
 .stat small {
@@ -261,12 +261,12 @@ nav {
     font-size: .7rem;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #4a5863
+    color: #4e5a4c
 }
 
 .price {
     padding: 2rem;
-    border: 1px solid rgba(31, 43, 52, .12);
+    border: 1px solid rgba(26, 40, 32, .12);
     background: rgba(255, 255, 255, .25);
     text-align: center;
     margin-top: 1.5rem
@@ -276,13 +276,13 @@ nav {
     font-family: 'Playfair Display', Georgia, serif;
     font-size: 2.8rem;
     font-weight: 700;
-    color: #3d6d82
+    color: #4a7248
 }
 
 .price-u {
     font-family: 'Outfit', sans-serif;
     font-size: .75rem;
-    color: #4a5863;
+    color: #4e5a4c;
     letter-spacing: 1px;
     margin-bottom: 1rem
 }
@@ -290,11 +290,11 @@ nav {
 .price-n {
     font-family: 'Cormorant Garamond', Georgia, serif;
     font-size: .95rem;
-    color: #4a5863;
+    color: #4e5a4c;
     line-height: 1.7;
     text-align: left;
     padding-top: .8rem;
-    border-top: 1px solid rgba(31, 43, 52, .08)
+    border-top: 1px solid rgba(26, 40, 32, .08)
 }
 
 .eg {
@@ -307,13 +307,13 @@ nav {
 
 .ec {
     padding: 2rem 1.8rem;
-    border: 1px solid rgba(31, 43, 52, .08);
+    border: 1px solid rgba(26, 40, 32, .08);
     background: rgba(255, 255, 255, .3);
     transition: border-color .4s, transform .4s
 }
 
 .ec:hover {
-    border-color: rgba(61, 109, 130, .3);
+    border-color: rgba(74, 114, 72, .3);
     transform: translateY(-3px)
 }
 
@@ -321,7 +321,7 @@ nav {
     font-family: 'Playfair Display', Georgia, serif;
     font-size: 1.25rem;
     font-weight: 700;
-    color: #1f2b34;
+    color: #1a2820;
     margin-bottom: .6rem
 }
 
@@ -329,7 +329,7 @@ nav {
     font-family: 'Cormorant Garamond', Georgia, serif;
     font-size: 1rem;
     line-height: 1.7;
-    color: #4a5863
+    color: #4e5a4c
 }
 
 .tl {
@@ -347,7 +347,7 @@ nav {
 
 .ti-in {
     padding: 1.5rem 1.8rem;
-    border: 1px solid rgba(31, 43, 52, .06);
+    border: 1px solid rgba(26, 40, 32, .06);
     background: rgba(255, 255, 255, .3)
 }
 
@@ -356,7 +356,7 @@ nav {
     font-size: .7rem;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: #3d6d82;
+    color: #4a7248;
     margin-bottom: .4rem
 }
 
@@ -364,7 +364,7 @@ nav {
     font-family: 'Playfair Display', Georgia, serif;
     font-size: 1.2rem;
     font-weight: 700;
-    color: #1f2b34;
+    color: #1a2820;
     margin-bottom: .5rem
 }
 
@@ -372,7 +372,7 @@ nav {
     font-family: 'Cormorant Garamond', Georgia, serif;
     font-size: 1rem;
     line-height: 1.7;
-    color: #4a5863
+    color: #4e5a4c
 }
 
 .dg {
@@ -387,10 +387,10 @@ nav {
     font-family: 'Playfair Display', Georgia, serif;
     font-size: 1.4rem;
     font-weight: 700;
-    color: #1f2b34;
+    color: #1a2820;
     margin-bottom: 1.2rem;
     padding-bottom: .6rem;
-    border-bottom: 1px solid rgba(31, 43, 52, .1)
+    border-bottom: 1px solid rgba(26, 40, 32, .1)
 }
 
 .dl {
@@ -401,9 +401,9 @@ nav {
     font-family: 'Cormorant Garamond', Georgia, serif;
     font-size: 1.02rem;
     line-height: 1.7;
-    color: #4a5863;
+    color: #4e5a4c;
     padding: .5rem 0;
-    border-bottom: 1px solid rgba(31, 43, 52, .04);
+    border-bottom: 1px solid rgba(26, 40, 32, .04);
     display: flex;
     align-items: baseline;
     gap: .7rem
@@ -412,14 +412,14 @@ nav {
 .cta {
     text-align: center;
     padding: 5rem 4vw;
-    background: linear-gradient(180deg, #d9cdb0, #967a3d)
+    background: linear-gradient(180deg, #d9d4bc, #8a6d3d)
 }
 
 .cta h2 {
     font-family: 'Playfair Display', Georgia, serif;
     font-size: clamp(2rem, 5vw, 3.5rem);
     font-weight: 700;
-    color: #1f2b34;
+    color: #1a2820;
     line-height: 1.1;
     margin-bottom: 1rem
 }
@@ -427,7 +427,7 @@ nav {
 .cta p {
     font-family: 'Cormorant Garamond', Georgia, serif;
     font-size: 1.15rem;
-    color: #4a5863;
+    color: #4e5a4c;
     margin-bottom: 2rem
 }
 
@@ -439,35 +439,35 @@ nav {
     text-transform: uppercase;
     letter-spacing: 3px;
     padding: 1rem 2.6rem;
-    color: #f2ead5;
-    background: linear-gradient(135deg, #3d6d82, #1f4559);
+    color: #ede6d0;
+    background: linear-gradient(135deg, #4a7248, #1e3a28);
     text-decoration: none;
     transition: all .4s
 }
 
 .btn:hover {
-    background: linear-gradient(135deg, #967a3d, #3d6d82);
+    background: linear-gradient(135deg, #8a6d3d, #4a7248);
     transform: translateY(-2px);
-    box-shadow: 0 10px 30px rgba(31, 69, 89, .3)
+    box-shadow: 0 10px 30px rgba(30, 58, 40, .3)
 }
 
 footer {
     text-align: center;
     padding: 1.2rem 4vw;
-    background: #1f4559;
+    background: #1e3a28;
     font-family: 'Outfit', sans-serif;
     font-size: .72rem;
     letter-spacing: 1px;
-    color: rgba(242, 234, 213, .4)
+    color: rgba(237, 230, 208, .4)
 }
 
 footer a {
-    color: #d9cdb0;
+    color: #d9d4bc;
     text-decoration: none
 }
 
 footer a:hover {
-    color: #f2ead5
+    color: #ede6d0
 }
 
 @media(max-width:900px) {
