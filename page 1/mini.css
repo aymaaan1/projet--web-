@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "GramelOutline";
+    src: url("fonts/GramelOutline.otf")
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -83,7 +88,12 @@ nav {
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    background: linear-gradient(178deg, #1e3a28, #4a7248 25%, #8a6d3d 55%, #d9d4bc)
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        url("image1/images/atlas2.avif");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+
 }
 
 .hero-content {
@@ -121,9 +131,9 @@ nav {
 }
 
 .hero-loc {
-    font-family: 'Outfit', sans-serif;
-    font-size: .75rem;
-    font-weight: 500;
+    font-family: "GramelOutline";
+    font-size: 16px;
+    font-weight: 500px;
     text-transform: uppercase;
     letter-spacing: 5px;
     color: #ede6d0;
@@ -132,7 +142,7 @@ nav {
 }
 
 .hero h1 {
-    font-family: 'Playfair Display', Georgia, serif;
+    font-family: 'GramelOutline', Georgia, serif;
     font-size: clamp(3rem, 9vw, 7rem);
     font-weight: 700;
     line-height: 1;
@@ -142,16 +152,29 @@ nav {
 
 .hero h1 em {
     font-style: italic;
-    color: #d9d4bc
+    color: #d9d4bc;
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeSlide 2s ease-out forwards;
+    letter-spacing: 6px;
+}
+
+@keyframes fadeSlide {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+
+
+    }
 }
 
 .hero-sub {
-    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-family: "GramelOutline";
     font-size: clamp(1.1rem, 2vw, 1.35rem);
     font-weight: 300;
     color: #ede6d0;
-    line-height: 1.7;
-    max-width: 540px;
+    line-height: 2;
+    max-width: 600px;
     margin: 0 auto;
     opacity: .85
 }
@@ -233,7 +256,8 @@ nav {
     font-size: 1.12rem;
     line-height: 1.85;
     color: #4e5a4c;
-    margin-bottom: 1rem
+    margin-bottom: 1rem;
+    text-align: justify;
 }
 
 .stats {
@@ -329,7 +353,7 @@ nav {
     font-family: 'Cormorant Garamond', Georgia, serif;
     font-size: 1rem;
     line-height: 1.7;
-    color: #4e5a4c
+    color: #4e5a4c;
 }
 
 .tl {
@@ -372,7 +396,8 @@ nav {
     font-family: 'Cormorant Garamond', Georgia, serif;
     font-size: 1rem;
     line-height: 1.7;
-    color: #4e5a4c
+    color: #4e5a4c;
+    text-align: justify;
 }
 
 .dg {
