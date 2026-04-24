@@ -12,8 +12,9 @@
 
     document.getElementById('submit-btn').addEventListener('click', function () {
       var fname = document.getElementById('fname').value.trim();
+      var lname = document.getElementById('lname').value.trim();
       var email = document.getElementById('email').value.trim();
-      var dest  = document.querySelector('input[name="destination"]:checked');
+      var dest  = document.querySelector('input[name="destination"]:checked').value;
 
       var missing = [];
       if (!fname) missing.push('first name');
@@ -27,4 +28,5 @@
 
       document.getElementById('form-body').style.display = 'none';
       document.getElementById('success-msg').style.display = 'block';
+      document.getElementById('success-message').innerHTML='<h3>Thank you for your reservation dear '+fname+" "+lname.toUpperCase()+"</h3></br><h4> Your disrination is "+dest+"</h4>";
     });
